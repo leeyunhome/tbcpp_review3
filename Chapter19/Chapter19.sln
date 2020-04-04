@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator_overloading_test1"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_5_taskbased", "19_5_taskbased\19_5_taskbased.vcxproj", "{E81DF2B2-E286-4E2B-9F4E-4374C5CE6223}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_1_lambda_function", "19_1_lambda_function\19_1_lambda_function.vcxproj", "{4BBE397C-B64C-4938-AFFD-30F5BE763445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{E81DF2B2-E286-4E2B-9F4E-4374C5CE6223}.Release|x64.Build.0 = Release|x64
 		{E81DF2B2-E286-4E2B-9F4E-4374C5CE6223}.Release|x86.ActiveCfg = Release|Win32
 		{E81DF2B2-E286-4E2B-9F4E-4374C5CE6223}.Release|x86.Build.0 = Release|Win32
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Debug|x64.ActiveCfg = Debug|x64
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Debug|x64.Build.0 = Debug|x64
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Debug|x86.Build.0 = Debug|Win32
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Release|x64.ActiveCfg = Release|x64
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Release|x64.Build.0 = Release|x64
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Release|x86.ActiveCfg = Release|Win32
+		{4BBE397C-B64C-4938-AFFD-30F5BE763445}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
