@@ -10,8 +10,13 @@ int main()
 	int x;
 	cin >> x;
 
-	if (x > 10)
-		cout << "A" << endl;
-	else if (x == -1)
+	if (x = 0)
+		cout << x << endl;
+
+	cout << x << endl;
+	//if (x > 10)
+	//	;	// ... ...
+	//	cout << "A" << endl;
+	//else if (x == -1)
 	return 0;
 }
