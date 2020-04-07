@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_1_arithmatic_operator_ove
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_3_unary_operator_overloading", "9_3_unary_operator_overloading\9_3_unary_operator_overloading.vcxproj", "{92E28D67-B5F2-42DC-BC7B-18505FF580A7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_4_compareoperator_overloading", "9_4_compareoperator_overloading\9_4_compareoperator_overloading.vcxproj", "{147F7656-9CCE-47D5-8635-5BC85E034594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{92E28D67-B5F2-42DC-BC7B-18505FF580A7}.Release|x64.Build.0 = Release|x64
 		{92E28D67-B5F2-42DC-BC7B-18505FF580A7}.Release|x86.ActiveCfg = Release|Win32
 		{92E28D67-B5F2-42DC-BC7B-18505FF580A7}.Release|x86.Build.0 = Release|Win32
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Debug|x64.ActiveCfg = Debug|x64
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Debug|x64.Build.0 = Debug|x64
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Debug|x86.ActiveCfg = Debug|Win32
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Debug|x86.Build.0 = Debug|Win32
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Release|x64.ActiveCfg = Release|x64
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Release|x64.Build.0 = Release|x64
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Release|x86.ActiveCfg = Release|Win32
+		{147F7656-9CCE-47D5-8635-5BC85E034594}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
