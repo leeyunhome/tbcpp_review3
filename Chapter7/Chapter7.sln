@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_3_passing arguments by re
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_7_function_overloading", "7_7_function_overloading\7_7_function_overloading.vcxproj", "{70D5FC98-85F9-47A0-86A3-5ECF6B5095B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_8_default_parameter", "7_8_default_parameter\7_8_default_parameter.vcxproj", "{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{70D5FC98-85F9-47A0-86A3-5ECF6B5095B9}.Release|x64.Build.0 = Release|x64
 		{70D5FC98-85F9-47A0-86A3-5ECF6B5095B9}.Release|x86.ActiveCfg = Release|Win32
 		{70D5FC98-85F9-47A0-86A3-5ECF6B5095B9}.Release|x86.Build.0 = Release|Win32
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Debug|x64.ActiveCfg = Debug|x64
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Debug|x64.Build.0 = Debug|x64
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Debug|x86.Build.0 = Debug|Win32
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Release|x64.ActiveCfg = Release|x64
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Release|x64.Build.0 = Release|x64
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Release|x86.ActiveCfg = Release|Win32
+		{04A590B3-03B7-48CF-A325-E9F71C2FE4CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
