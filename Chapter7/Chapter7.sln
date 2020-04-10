@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_8_default_parameter", "7_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_11_std_vector를 스택처럼 사용하기", "7_11_std_vector를 스택처럼 사용하기\7_11_std_vector를 스택처럼 사용하기.vcxproj", "{1E82C588-E370-40E2-BA10-A0414C38E5DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_13_defensive_programming", "7_13_defensive_programming\7_13_defensive_programming.vcxproj", "{27069EF4-CABF-4955-A024-3972A9A3B780}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{1E82C588-E370-40E2-BA10-A0414C38E5DE}.Release|x64.Build.0 = Release|x64
 		{1E82C588-E370-40E2-BA10-A0414C38E5DE}.Release|x86.ActiveCfg = Release|Win32
 		{1E82C588-E370-40E2-BA10-A0414C38E5DE}.Release|x86.Build.0 = Release|Win32
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Debug|x64.ActiveCfg = Debug|x64
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Debug|x64.Build.0 = Debug|x64
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Debug|x86.ActiveCfg = Debug|Win32
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Debug|x86.Build.0 = Debug|Win32
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Release|x64.ActiveCfg = Release|x64
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Release|x64.Build.0 = Release|x64
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Release|x86.ActiveCfg = Release|Win32
+		{27069EF4-CABF-4955-A024-3972A9A3B780}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
