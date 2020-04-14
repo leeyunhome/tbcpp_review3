@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	//// multi-threading
+	// multi-threading
 	//{
 	//	int result;
 	//	std::thread t([&] {result = 1 + 2;  });
@@ -17,7 +17,7 @@ int main()
 	//	cout << result << endl;
 	//}
 
-	//// task-based parallelism
+	////// task-based parallelism
 	//{
 	//	// std:future<int> fut = ...
 	//	auto fut = std::async([] { return 1 + 2;  });
