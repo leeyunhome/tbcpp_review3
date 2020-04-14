@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_5_증감연사자오버�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_2_입출력연산자오버로딩", "9_2_입출력연산자오버로딩\9_2_입출력연산자오버로딩.vcxproj", "{6AC83F95-89AB-4CFD-9613-C5821D17CBFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_6_첨자연산자오버로딩하기", "9_6_첨자연산자오버로딩하기\9_6_첨자연산자오버로딩하기.vcxproj", "{F7D46F94-29AF-4196-BD34-D34B22B7741B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{6AC83F95-89AB-4CFD-9613-C5821D17CBFD}.Release|x64.Build.0 = Release|x64
 		{6AC83F95-89AB-4CFD-9613-C5821D17CBFD}.Release|x86.ActiveCfg = Release|Win32
 		{6AC83F95-89AB-4CFD-9613-C5821D17CBFD}.Release|x86.Build.0 = Release|Win32
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Debug|x64.ActiveCfg = Debug|x64
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Debug|x64.Build.0 = Debug|x64
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Debug|x86.Build.0 = Debug|Win32
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Release|x64.ActiveCfg = Release|x64
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Release|x64.Build.0 = Release|x64
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Release|x86.ActiveCfg = Release|Win32
+		{F7D46F94-29AF-4196-BD34-D34B22B7741B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
