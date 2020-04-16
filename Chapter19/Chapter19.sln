@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_1_lambda_function", "19_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_6_멀티쓰레딩 예제(벡터 내적)", "19_6_멀티쓰레딩 예제(벡터 내적)\19_6_멀티쓰레딩 예제(벡터 내적).vcxproj", "{2B154708-E875-4D71-AE09-1B19ECADB449}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_3_std thread와 멀티쓰레딩 기초", "19_3_std thread와 멀티쓰레딩 기초\19_3_std thread와 멀티쓰레딩 기초.vcxproj", "{832BA879-A36B-471A-A61C-AC09976A5987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{2B154708-E875-4D71-AE09-1B19ECADB449}.Release|x64.Build.0 = Release|x64
 		{2B154708-E875-4D71-AE09-1B19ECADB449}.Release|x86.ActiveCfg = Release|Win32
 		{2B154708-E875-4D71-AE09-1B19ECADB449}.Release|x86.Build.0 = Release|Win32
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Debug|x64.ActiveCfg = Debug|x64
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Debug|x64.Build.0 = Debug|x64
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Debug|x86.ActiveCfg = Debug|Win32
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Debug|x86.Build.0 = Debug|Win32
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Release|x64.ActiveCfg = Release|x64
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Release|x64.Build.0 = Release|x64
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Release|x86.ActiveCfg = Release|Win32
+		{832BA879-A36B-471A-A61C-AC09976A5987}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
