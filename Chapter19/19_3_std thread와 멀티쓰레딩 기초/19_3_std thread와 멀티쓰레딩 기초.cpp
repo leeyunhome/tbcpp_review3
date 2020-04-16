@@ -19,7 +19,7 @@ int main()
 		for (int i = 0; i < 5; ++i)
 		{
 			std::this_thread::sleep_for(std::chrono::microseconds(100));
-			for (int i = 0; i < 2000; ++i)
+			for (int i = 0; i < 5; ++i)
 				cout << i << endl;
 			mtx.lock();
 			cout << name << " " << std::this_thread::get_id() << " is working " << i << endl;
