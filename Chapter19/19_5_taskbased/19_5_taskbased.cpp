@@ -24,17 +24,18 @@ int main()
 	//	cout << fut.get() << endl;
 	//}
 
-	//// future and promise
+	//// future and promise // future를 사용할 때 thread랑 같이 사용하려면
 	//{
 	//	std::promise<int> prom;
 	//	auto fut = prom.get_future();
 
-	//	auto t = std::thread([](std::promise<int>&& prom)
+	//	auto t = std::thread([](std::promise<int>&& prom)//프라미스의 r-value레퍼런스
 	//	{
-	//		prom.set_value(1 + 2);
+	//		prom.set_value(1 + 2);//프라미스가 set_value를 통해서 결과값을 받을 때까지
+	//							 //
 	//	}, std::move(prom));
 
-	//	cout << fut.get() << endl;
+	//	cout << fut.get() << endl; // 퓨쳐가 계속 기다립니다. 약속이 완수되기를 미래가 하염없이 기다리는 형태가 되는것
 	//	t.join();
 	//}
 
