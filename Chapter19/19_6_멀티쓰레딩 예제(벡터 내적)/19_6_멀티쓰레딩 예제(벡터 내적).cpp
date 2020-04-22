@@ -24,12 +24,27 @@ void dotProductNaive(const vector<int>& v0, const vector<int>& v1,
 		sum += v0[i] * v1[i];
 }
 
+void dotProductLock(const vector<int>& v0, const vector<int>& v1,
+	const unsigned i_start, const unsigned i_end, unsigned long long& sum)
+{
+	// cout << "Thread start " << endl;
+	for (unsigned i = i_start; i < i_end; ++i)
+	{
+		std::scoped_lock lock(mtx);	// c++17
+
+		sum += v0[i] * v1[i];
+
+	}
+	// cout << "Thread end " << endl;
+}
+
 int main()
 {
 	/*
 		v0 = {1, 2, 3}
 		v1 = {4, 5, 6}
 		v0_dot_v1 = 1*4 + 2*5 + 3*6;
+		2차원 벡터, 3차원 벡터들 끼리의 inner product를 dot product라고 불러요
 	*/
 
 	const long long n_data = 100'000'000;
@@ -70,7 +85,7 @@ int main()
 
 		unsigned long long sum = 0;
 
-		vector<thread> threads;
+		vector<thread> threads;// 스레드의 벡터를 선언을 해버렸고
 		threads.resize(n_threads);
 
 		const unsigned n_per_thread = n_data / n_threads; // assumes remainder = 0
@@ -78,6 +93,30 @@ int main()
 			threads[t] = std::thread(dotProductNaive, std::ref(v0), std::ref(v1),
 				t * n_per_thread, (t + 1) * n_per_thread, std::ref(sum));
 		
+		for (unsigned t = 0; t < n_threads; ++t)
+			threads[t].join();
+
+		const chrono::duration<double> dur = chrono::steady_clock::now() - sta;
+
+		cout << dur.count() << endl;
+		cout << sum << endl;
+		cout << endl;
+	}
+
+	cout << "Lockguard" << endl;
+	{
+		const auto sta = chrono::steady_clock::now();
+
+		unsigned long long sum = 0;
+
+		vector<thread> threads;
+		threads.resize(n_threads);
+
+		const unsigned n_per_thread = n_data / n_threads; // assumes remainder = 0
+		for (unsigned t = 0; t < n_threads; ++t)
+			threads[t] = std::thread(dotProductLock, std::ref(v0), std::ref(v1),
+				t * n_per_thread, (t + 1) * n_per_thread, std::ref(sum));
+	
 		for (unsigned t = 0; t < n_threads; ++t)
 			threads[t].join();
 
