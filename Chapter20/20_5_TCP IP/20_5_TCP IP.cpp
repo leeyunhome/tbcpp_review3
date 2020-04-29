@@ -39,6 +39,10 @@ int main()
 				std::getline(stream, line);
 				std::cout << line << std::endl;
 
+				/*std::string message;
+				std::getline(stream, message);
+				std::cout << message << std::endl;*/
+
 				// send message to client
 				stream << message_to_send;
 				stream << std::endl;	// send std::endl to end getline of client

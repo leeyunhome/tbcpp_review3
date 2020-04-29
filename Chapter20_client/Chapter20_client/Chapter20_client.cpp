@@ -25,13 +25,24 @@ int main(int argc, char* argv[]) //argument로 서버의 주소를 입력을 받고 있어요
 		}
 
 		// send message to server
-		stream << "Hello from client";
-		stream << std::endl;	// send new-line to end receiver'stream getline
+		//stream << "Hello from client";
+		//stream << std::endl;	// send new-line to end receiver'stream getline
 	
+		std::cout << "chat! " << std::endl;
+
+		std::string message;
+
+		std::cin >> message;
+		stream << message;
+		stream << std::endl;
+
 		// receive message from server
 		std::string line;
 		std::getline(stream, line);
 		std::cout << line << std::endl;
+
+		
+		
 	}
 	catch (std::exception& e)
 	{
