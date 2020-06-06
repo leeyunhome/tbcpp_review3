@@ -2,11 +2,11 @@
 #include <assert.h> // for assert()
 #include <iostream>
 
-template<typename T>
+template<typename T, unsigned int T_SIZE>
 class MyArray
 {
 private:
-	int m_length;
+	//int m_length;
 	T* m_data;
 
 public:
