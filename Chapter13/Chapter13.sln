@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.3 자료형이 아닌 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.4 함수 템플릿 특수화", "13.4 함수 템플릿 특수화\13.4 함수 템플릿 특수화.vcxproj", "{1B681B7F-401B-438C-8E76-A300367FC4BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.5 클래스 템플릿 특수화", "13.5 클래스 템플릿 특수화\13.5 클래스 템플릿 특수화.vcxproj", "{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{1B681B7F-401B-438C-8E76-A300367FC4BA}.Release|x64.Build.0 = Release|x64
 		{1B681B7F-401B-438C-8E76-A300367FC4BA}.Release|x86.ActiveCfg = Release|Win32
 		{1B681B7F-401B-438C-8E76-A300367FC4BA}.Release|x86.Build.0 = Release|Win32
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Debug|x64.ActiveCfg = Debug|x64
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Debug|x64.Build.0 = Debug|x64
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Debug|x86.Build.0 = Debug|Win32
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Release|x64.ActiveCfg = Release|x64
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Release|x64.Build.0 = Release|x64
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Release|x86.ActiveCfg = Release|Win32
+		{6D2EBF81-5E24-4A9B-BE85-7DAEE17A0E5E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
