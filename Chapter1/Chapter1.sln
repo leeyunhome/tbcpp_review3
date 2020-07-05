@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.12 Header Gard", "1.12 He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.13 네임스페이스", "1.13 네임스페이스\1.13 네임스페이스.vcxproj", "{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.14 전처리기와의 첫 만남", "1.14 전처리기와의 첫 만남\1.14 전처리기와의 첫 만남.vcxproj", "{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x64.Build.0 = Release|x64
 		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x86.ActiveCfg = Release|Win32
 		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x86.Build.0 = Release|Win32
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Debug|x64.ActiveCfg = Debug|x64
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Debug|x64.Build.0 = Debug|x64
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Debug|x86.Build.0 = Debug|Win32
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Release|x64.ActiveCfg = Release|x64
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Release|x64.Build.0 = Release|x64
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Release|x86.ActiveCfg = Release|Win32
+		{A8DBCB9D-8C9E-410B-9A31-2317B0EE4F07}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
