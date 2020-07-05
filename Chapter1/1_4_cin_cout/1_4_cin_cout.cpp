@@ -1,7 +1,8 @@
 // 1_4_cin_cout.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <iostream>	// cout, cin, endl, ...
+#include <cstdio>
 
 int main()
 {
