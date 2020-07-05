@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.11 헤더파일 만들기
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.12 Header Gard", "1.12 Header Gard\1.12 Header Gard.vcxproj", "{DAD664CA-5AB0-4F5F-9362-E8FC7A4C50C2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.13 네임스페이스", "1.13 네임스페이스\1.13 네임스페이스.vcxproj", "{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{DAD664CA-5AB0-4F5F-9362-E8FC7A4C50C2}.Release|x64.Build.0 = Release|x64
 		{DAD664CA-5AB0-4F5F-9362-E8FC7A4C50C2}.Release|x86.ActiveCfg = Release|Win32
 		{DAD664CA-5AB0-4F5F-9362-E8FC7A4C50C2}.Release|x86.Build.0 = Release|Win32
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Debug|x64.ActiveCfg = Debug|x64
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Debug|x64.Build.0 = Debug|x64
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Debug|x86.Build.0 = Debug|Win32
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x64.ActiveCfg = Release|x64
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x64.Build.0 = Release|x64
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x86.ActiveCfg = Release|Win32
+		{7C9BA978-D77D-466B-ABD4-47D9B3BFF97A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
